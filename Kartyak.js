@@ -1,3 +1,4 @@
+
 import Kartya from "./Kartya.js";
 
 export default class Kartyak{

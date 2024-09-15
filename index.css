@@ -1,4 +1,53 @@
-img{
-    height: 200px;
-    width: 200px;
+.fokep img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.fokep {
+    padding: .5rem;
+}
+
+.kisKartyak img {
+    padding: 2px;
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.kisKartyak {
+    display: flex;
+    flex-direction: row;
+    margin-inline: 20px ;
+}
+
+.active {
+    background-color: red;
+    border-color: red;
+}
+
+main {
+    margin-inline: auto;
+    margin-block: 1rem;
+    width: fit-content;
+    text-align: center;
+
+}
+
+article {
+    border: 2px solid grey;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+button {
+    background: none;
+    background-color: orange;
+    border-color: black;
+    padding-inline: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
 }

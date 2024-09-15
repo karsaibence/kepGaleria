@@ -1,10 +1,14 @@
 import Fokep from "./Fokep.js"
-import Kartya from "./Kartya.js"
 import Kartyak from "./Kartyak.js"
 import { kepek } from "./adatlista.js"
 
-const fokep = $(".kartya")
+const fokepElem = $(".fokep")
 const kisKepek = $(".kisKartyak")
 
-new Fokep(kepek[0], fokep)
-new Kartyak(kepek,kisKepek)
+new Fokep(kepek[0], fokepElem)
+new Kartyak(kepek, kisKepek)
+
+$(window).on("Kivalaszt", (event) => {
+    fokepElem.html("")
+    new Fokep(event.detail, fokepElem)
+})
